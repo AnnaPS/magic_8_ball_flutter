@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:magic_8_ball/ballpage.dart';
 
 void main() => runApp(
       MaterialApp(
-        home: null,
+        debugShowCheckedModeBanner: false,
+        home: BallPage(),
       ),
     );
